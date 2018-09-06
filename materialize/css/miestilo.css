@@ -1,0 +1,17 @@
+.algo{
+  border: 1px solid #FF0000;
+  font-size: 30px;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.otro{
+      border: 0px;
+      background-color: #e50914;
+      color: #00FFFF;
+      font-size: 100%;
+}
