@@ -11,12 +11,11 @@ ol.c {
 }
 
 .b{
-  /* font-weight: 600; */
-  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
 }
 
 .background {
-       background-image:url("../baches.jpg");
+       background-image:url("../fotobache.jpg");
        background-size: 100%;
        background-repeat: no-repeat;
        size:1080px;
@@ -35,27 +34,3 @@ ol.c {
         width: 100%;
         height: 100%;
           }
-
-.Times{
-      font-family: "Times New Roman", Times, serif;
-      font-weight: bold;
-      }
-
-.Times2{
-      font-family: "Times New Roman", Times, serif;
-      }
-
-.responsive {
-        width: 100%;
-        height: auto;
-    }
-
-.Times3{
-      font-family: "Times New Roman", Times, serif;
-      font-style: italic;
-    }
-
-.spaced{
-      left: 15px;
-      right: 15px;
-}
