@@ -44,8 +44,13 @@ ol.c {
 .Times2{
       font-family: "Times New Roman", Times, serif;
       }
-      
+
 .responsive {
         width: 100%;
         height: auto;
+    }
+
+.Times3{
+      font-family: "Times New Roman", Times, serif;
+      font-style: italic;
     }
