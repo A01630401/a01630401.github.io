@@ -17,6 +17,15 @@
 	font-weight: bold;
 	font-size: 10px;
 }
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
 </style>
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,22 +37,27 @@
 
 		gtag('config', 'UA-127165653-1');
 	</script>
+
 	<title>Proyecto</title>
 </head>
 
 <body>
 	<!--Parte Alta-->
+	<header>
 	<nav>
 		<div class="nav-wrapper blue-grey darken-4 center">
-			<a href="#" class="brand-logo center"><h5 class="Times white-text Times">The Problem of Public Roads in Mexico</h5></a>
+			<a class="brand-logo center"><h5 class="Times white-text Times">The Problem of Public Roads in Mexico</h5></a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="5w.html">More Info</a></li>
-				<li><a href="proyecto5w.html">Academic Research</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="problem.html">The Problem</a></li>
+				<li><a href="details.html">Details</a></li>
+				<li><a href="academic.html">Academic Research</a></li>
 			</ul>
 		</div>
 	</nav>
+</header>
 	<!--Parte Central-->
+	<main>
 	<div class="row center Times">
 		<div class="col s4">
 
@@ -110,9 +124,8 @@
 			</div>
 		</div>
 
-
-
 	</div>
+</main>
 
 
 	<!--Parte Baja-->
