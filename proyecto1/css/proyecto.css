@@ -1,3 +1,7 @@
+body{
+  background-image: url("../simple.jpg");
+}
+
 .title{
   font-size: 140%;
 }
