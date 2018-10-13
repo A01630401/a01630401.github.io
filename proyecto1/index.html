@@ -28,6 +28,7 @@ main {
 	flex: 1 0 auto;
 }
 </style>
+
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127165653-1"></script>
@@ -49,6 +50,7 @@ main {
 			<nav>
 				<div class="nav-wrapper blue-grey darken-4 center">
 					<a class="brand-logo center"><h5 class="Times white-text Times">The Problem of Public Roads in Mexico</h5></a>
+					<!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li><a href="/proyecto1">Home</a></li>
 						<li><a href="problem.html">The Problem</a></li>
@@ -57,6 +59,12 @@ main {
 					</ul>
 				</div>
 			</nav>
+			<!-- <ul class="sidenav" id="mobile-demo">
+				<li><a href="/proyecto1">Home</a></li>
+				<li><a href="problem.html">The Problem</a></li>
+				<li><a href="details.html">Details</a></li>
+				<li><a href="academic.html">Academic Research</a></li>
+			</ul> -->
 		</div>
 	</header>
 	<!--Parte Central-->
@@ -161,7 +169,10 @@ main {
 			hoverEnabled: false
 		});
 	});
-
+	// document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.sidenav');
+  //   var instances = M.Sidenav.init(elems, options);
+  // });
 
 	</script>
 </body>
