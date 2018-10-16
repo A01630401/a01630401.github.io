@@ -157,7 +157,9 @@ main {
 			<div class="row">
 				<div class="col l6 s12">
 					<h5 class="white-text">Credits</h5>
-					<p class="grey-text text-lighten-4">Fernando Martinez A01630401, Marcelo Medina A01632064, Diego Micalco A01635164.</p>
+					<p class="grey-text text-lighten-4">Fernando Martinez A01630401</p>
+					<p class="grey-text text-lighten-4">Marcelo Estrada Medina A01632064</p>
+					<p class="grey-text text-lighten-4">Diego Sanchez Micalco A01635164</p>
 				</div>
 				<div class="col l4 offset-l2 s12">
 
@@ -174,26 +176,26 @@ main {
 
 	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript">
-	document.addEventListener('DOMContentLoaded', function() {
-		var elems = document.querySelectorAll('.fixed-action-btn');
-		var instances = M.FloatingActionButton.init(elems, {
-			direction: 'left',
-			hoverEnabled: false
-		});
-	});
+	// document.addEventListener('DOMContentLoaded', function() {
+	// 	var elems = document.querySelectorAll('.fixed-action-btn');
+	// 	var instances = M.FloatingActionButton.init(elems, {
+	// 		direction: 'left',
+	// 		hoverEnabled: false
+	// 	});
+	// });
 
 	document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems);
   });
-
+	var instance = M.Carousel.init({
+		fullWidth: true
+	});
 	document.addEventListener('DOMContentLoaded', function() {
 		var elems = document.querySelectorAll('.carousel');
 		var instances = M.Carousel.init(elems);
 	});
-	// var instance = M.Carousel.init({
-	// 	fullWidth: true
-	// });
+
 
 </script>
 </body>
