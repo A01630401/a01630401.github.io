@@ -68,6 +68,7 @@ main {
 				<li><a href="problem.html">The Problem</a></li>
 				<li><a href="details.html">Details</a></li>
 				<li><a href="academic.html">Academic Research</a></li>
+				<li><a href="Persona.html">Persona</a></li>
 			</ul>
 		</div>
 	</header>
@@ -183,12 +184,12 @@ main {
 
 	document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
+    var instances = M.Sidenav.init(elems);
   });
 
 	document.addEventListener('DOMContentLoaded', function() {
 		var elems = document.querySelectorAll('.carousel');
-		var instances = M.Carousel.init(elems, options);
+		var instances = M.Carousel.init(elems);
 	});
 	var instance = M.Carousel.init({
 		fullWidth: true
