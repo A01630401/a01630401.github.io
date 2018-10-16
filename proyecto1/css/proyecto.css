@@ -1,9 +1,13 @@
 body{
+  color: white;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-image: url("../simple.jpg");
+  background-image: url("../pavimento.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
 }
+
 main {
   flex: 1 0 auto;
 }
@@ -24,27 +28,6 @@ ol.c {
   /* font-weight: 600; */
   font-family: "Times New Roman", Times, serif;
 }
-
-.background {
-       background-image:url("../baches.jpg");
-       background-size: 100%;
-       background-repeat: no-repeat;
-       size:1080px;
-       z-index: -5;
-       position: absolute;
-       width: 100%;
-       height: 100%;
-       top: 0px;
-       left: 0px}
-
- .layer {
-        background-color: rgba(255, 255, 255, 0.4);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-          }
 
 .Times{
       font-family: "Times New Roman", Times, serif;
