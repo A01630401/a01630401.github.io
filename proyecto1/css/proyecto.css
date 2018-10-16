@@ -1,9 +1,9 @@
 body{
-  color: white;
+  color: black;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-image: url("../pavimento.jpg");
+  background-image: url("../cement.jpg");
   background-size: 100%;
   background-repeat: repeat-y;
 }
