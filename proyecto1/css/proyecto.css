@@ -12,6 +12,11 @@ main {
   flex: 1 0 auto;
 }
 
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 80%;
+}
+
 .title{
   font-size: 140%;
 }
