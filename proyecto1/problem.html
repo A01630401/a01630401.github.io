@@ -38,6 +38,15 @@
           </ul>
         </div>
       </nav>
+      <ul class="sidenav" id="mobile-demo">
+				<li><a href="/proyecto1">Home</a></li>
+				<li><a href="problem.html">The Problem</a></li>
+				<li><a href="details.html">Details</a></li>
+				<li><a href="academic.html">Academic Research</a></li>
+				<li><a href="Persona.html">Persona</a></li>
+				<li><a href="proposal.html">Proposal</a></li>
+				<li><a href="references.html">References</a></li>
+			</ul>
     </div>
   </header>
 
@@ -53,13 +62,6 @@
     </div>
     <img src="fotobache.jpg" alt="Nature" class="center-block">
   </main>
-
-  <!-- <ul>
-    <li class="b">References:</li>
-    <li class="b">https://www.mural.com/aplicacioneslibre/preacceso/articulo/default.aspx?id=1015028&urlredirect=https://www.mural.com/aplicaciones/articulo/default.aspx?id=1015028</li>
-    <li class="b">http://www.inegi.org.mx/lib/olap/consulta/general_ver4/MDXQueryDatos.asp?#Regreso&c=</li>
-    <li class="b">https://www.informador.mx/Jalisco/La-mitad-de-las-calles-tapatias-estan-en-mal-estado-20160725-0128.html</li>
-  </ul> -->
 
   <!--Parte Baja-->
   <footer class="page-footer blue-grey darken-4" style="padding: 2px">
@@ -81,5 +83,11 @@
 
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
 </body>
 </html>

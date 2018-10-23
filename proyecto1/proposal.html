@@ -45,6 +45,15 @@
           </ul>
         </div>
       </nav>
+      <ul class="sidenav" id="mobile-demo">
+				<li><a href="/proyecto1">Home</a></li>
+				<li><a href="problem.html">The Problem</a></li>
+				<li><a href="details.html">Details</a></li>
+				<li><a href="academic.html">Academic Research</a></li>
+				<li><a href="Persona.html">Persona</a></li>
+				<li><a href="proposal.html">Proposal</a></li>
+				<li><a href="references.html">References</a></li>
+			</ul>
     </div>
   </header>
 
@@ -142,6 +151,10 @@
 
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
   </script>
 
 </body>
