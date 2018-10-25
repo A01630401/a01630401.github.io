@@ -1,0 +1,68 @@
+body{
+  color: black;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("../cement.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 80%;
+}
+
+.title{
+  font-size: 140%;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+.a{
+  font-weight: bolder;
+}
+
+.b{
+  /* font-weight: 600; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 170%;
+}
+
+.Times{
+      font-family: "Times New Roman", Times, serif;
+      font-weight: bold;
+      }
+
+.Times2{
+      font-family: "Times New Roman", Times, serif;
+      }
+
+.responsive {
+        width: 100%;
+        height: auto;
+    }
+
+.Times3{
+      font-family: "Times New Roman", Times, serif;
+      font-style: italic;
+    }
+
+.spaced{
+      margin-left: 15px;
+      margin-right: 15px;
+}
+.cent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ftext{
+  font-size: small;
+}
