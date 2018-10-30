@@ -1,5 +1,5 @@
-/* html {
-  font-size: 1rem;
+html {
+  font-family: 'Quattrocento', serif;
 }
 
 @include media-breakpoint-up(sm) {
@@ -168,7 +168,7 @@ main {
 }
 
 p{
-	font-family: "Times New Roman", Times, serif;
+	/* font-family: "Times New Roman", Times, serif; */
 	font-size: 80%;
 }
 
@@ -186,17 +186,17 @@ ol.c {
 
 .b{
   /* font-weight: 600; */
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
   font-size: 170%;
 }
 
 .Times{
-      font-family: "Times New Roman", Times, serif;
+      /* font-family: "Times New Roman", Times, serif; */
       font-weight: bold;
       }
 
 .Times2{
-      font-family: "Times New Roman", Times, serif;
+      /* font-family: "Times New Roman", Times, serif; */
       }
 
 .responsive {
@@ -205,7 +205,7 @@ ol.c {
     }
 
 .Times3{
-      font-family: "Times New Roman", Times, serif;
+      /* font-family: "Times New Roman", Times, serif; */
       font-style: italic;
     }
 
